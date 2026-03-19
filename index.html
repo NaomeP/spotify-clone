@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Spotify Clone</h1>
+    <h2 id="nowPlaying">Select a song</h2>
+    <input type="text" id="search" placeholder="Search song...">
+    <div id="songList"></div>
+    <div>
+        <button id="prev">⏮</button>
+        <button id="play">▶</button>
+        <button id="next">⏭</button>
+    </div>
+    <input type="range" id="progress" min="0" max="100" value="0">
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="0.5">
+    <button id="theme">🌙</button>
+    <script src="script.js"></script>
+</body>
+</html>
