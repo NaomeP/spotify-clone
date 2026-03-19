@@ -1,3 +1,7 @@
+Prototype
+
+https://spotify-clone-seven-brown-73.vercel.app/
+
 # 🎧 Spotify Clone
 
 A simple and interactive Spotify clone built using HTML, CSS, and JavaScript.
